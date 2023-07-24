@@ -7,7 +7,7 @@ services:
     startCommand: python bot.py
     repo: https://github.com/ashuevertel/Tel-X-Uploader.git
     branch: main
-    autoDeploy: false
+    autoDeploy: true
     envVars:
       - key: BOT_TOKEN
         sync: false
