@@ -17,8 +17,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 Telegram Link : https://t.me/evertel
-Repo Link : https://github.com/ashuevertel/Tel-X-Uploader 
-License Link : https://github.com/ashuevertel/Tel-X-Uploader/blob/main/LICENSE
+Repo Link : https://github.com/evertel/Tel-X-Uploader 
+License Link : https://github.com/evertel/Tel-X-Uploader/blob/main/LICENSE
 """
 
 from pyrogram import Client, filters, enums 
