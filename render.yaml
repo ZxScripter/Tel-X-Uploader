@@ -5,7 +5,7 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
-    repo: https://github.com/ashuevertel/Tel-X-Uploader.git
+    repo: https://github.com/evertel/Tel-X-Uploader.git
     branch: main
     autoDeploy: true
     envVars:
