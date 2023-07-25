@@ -16,8 +16,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 Telegram Link : https://t.me/evertel
-Repo Link : https://github.com/ashuevertel/Tel-X-Uploader 
-License Link : https://github.com/ashuevertel/Tel-X-Uploader/blob/main/LICENSE
+Repo Link : https://github.com/evertel/Tel-X-Uploader 
+License Link : https://github.com/evertel/Tel-X-Uploader/blob/main/LICENSE
 """
 
 import re, os, time
@@ -57,12 +57,12 @@ Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @evertel 💞</b>"""
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 ᴍy ɴᴀᴍᴇ : {}
-├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/evertel>EverTel</a> 
-├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://github.com/ashuevertel>Ashu Evertel.ɢɪᴛ</a>
+├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/evertel>EverTel TG</a> 
+├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://github.com/evertel>Evertel.ɢɪᴛ</a>
 ├📕 Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>
 ├✏️ Lᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>Pyᴛʜᴏɴ 3</a>
 ├💾 Dᴀᴛᴀ Bᴀꜱᴇ: <a href=https://cloud.mongodb.com>Mᴏɴɢᴏ DB</a>
-├📊 Bᴜɪʟᴅ Vᴇʀꜱɪᴏɴ: <a href=https://github.com/ashuevertel/Tel-X-Uploader>Tel X Uploader V3.0.0</a></b>     
+├📊 Bᴜɪʟᴅ Vᴇʀꜱɪᴏɴ: <a href=https://github.com/evertel/Tel-X-Uploader>Tel X Uploader V3.0.0</a></b>     
 ╰───────────────⍟ """
 
     HELP_TXT = """
@@ -85,12 +85,12 @@ Exᴀᴍᴩʟᴇ:- /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 
 #⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ @evertel🙏🥲
     DEV_TXT = """<b><u>Sᴩᴇᴄɪᴀʟ Tʜᴀɴᴋꜱ & Dᴇᴠᴇʟᴏᴩᴇʀꜱ</b></u>
-» 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href=https://github.com/ashuevertel/Tel-X-Uploader>Tel X Uploader</a>
+» 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href=https://github.com/evertel/Tel-X-Uploader>Tel X Uploader</a>
 » 𝗛𝗢𝗪 𝗧𝗢 𝗗𝗘𝗣𝗟𝗢𝗬 : <a href=https://youtube.com/@evertel>Evertel Yᴛ</a>
-• ❣️ <a href=https://github.com/ashuevertel>Ashu Evertel</a>
+• ❣️ <a href=https://github.com/evertel>Ashu Evertel</a>
 • ❣️ <a href=https://youtube.com/@evertel>YouTube</a>
-• ❣️ <a href=https://t.me/evertel>EverTel Channel</a>
-• ❣️ <a href=https://t.me/evertelsupport>Support Group</a> """
+• ❣️ <a href=https://t.me/evertel>EverTel TG Channel</a>
+• ❣️ <a href=https://t.me/evertelsupport>TG Support Group</a> """
 
     PROGRESS_BAR = """<b>\n
 ╭━━━━❰ᴘʀᴏɢʀᴇss ʙᴀʀ❱━➣
