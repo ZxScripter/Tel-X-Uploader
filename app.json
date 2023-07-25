@@ -3,7 +3,7 @@
     "description": "Telegram File Renamer Bot ",
     "logo": "https://graph.org/file/f46cae4521dcbdc601cce.jpg",
     "keywords": ["Renamer Bot", "Mongo DB"],    
-    "repository": "https://github.com/ashuevertel/Tel-X-Uploader",
+    "repository": "https://github.com/evertel/Tel-X-Uploader",
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org ",
