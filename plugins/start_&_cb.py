@@ -18,8 +18,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Telegram Link : https://t.me/evertel
-Repo Link : https://github.com/ashuevertel/Tel-X-Uploader 
-License Link : https://github.com/ashuevertel/Tel-X-Uploader/blob/main/LICENSE
+Repo Link : https://github.com/evertel/Tel-X-Uploader 
+License Link : https://github.com/evertel/Tel-X-Uploader/blob/main/LICENSE
 """
 
 import random
@@ -34,13 +34,14 @@ async def start(client, message):
     user = message.from_user
     await db.add_user(client, message)                
     button = InlineKeyboardMarkup([[
-        InlineKeyboardButton("👨‍💻 Dᴇᴠꜱ 👨‍💻", callback_data='dev')
+        InlineKeyboardButton("🧑‍🏫 Official YouTube 🧑‍🏫", url='https://youtube.com/@evertel')
         ],[
         InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/evertel'),
         InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/evertelsupport')
         ],[
         InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
-        InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
+        InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help'),
+        InlineKeyboardButton('👨‍💻 Dᴇᴠꜱ', callback_data='dev')
     ]])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)       
@@ -56,13 +57,14 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.START_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup([[
-                InlineKeyboardButton("👨‍💻 Dᴇᴠꜱ 👨‍💻", callback_data='dev')
+                InlineKeyboardButton(" 🧑‍🏫 Official YouTube 🧑‍🏫", url='https://youtube.com/@evertel')
                 ],[
                 InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/evertel'),
                 InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/evertelsupport')
                 ],[
                 InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
-                InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
+                InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help'),
+                InlineKeyboardButton('👨‍💻 Dᴇᴠꜱ', callback_data='dev')
             ]])
         )
     elif data == "help":
